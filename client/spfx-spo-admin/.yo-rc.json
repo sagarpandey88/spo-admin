@@ -1,0 +1,19 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "useGulp": false,
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "22.21.1",
+    "sdksVersions": {},
+    "version": "1.22.1",
+    "libraryName": "spfx-spo-admin",
+    "libraryId": "f934b590-e17d-4e12-b7a8-063905866c76",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "spfx-spo-admin",
+    "solutionShortDescription": "spfx-spo-admin description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

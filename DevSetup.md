@@ -1,0 +1,1 @@
+npm install @rushstack/heft yo @microsoft/generator-sharepoint --global

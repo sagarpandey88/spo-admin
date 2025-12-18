@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-spo-admin-client-side-solution",
+    "id": "f934b590-e17d-4e12-b7a8-063905866c76",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.22.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "spfx-spo-admin description"
+      },
+      "longDescription": {
+        "default": "spfx-spo-admin description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "spfx-spo-admin Feature",
+        "description": "The feature that activates elements of the spfx-spo-admin solution.",
+        "id": "5a897fe8-8c54-4dcf-8ba3-c1d97e0f5091",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-spo-admin.sppkg"
+  }
+}
