@@ -4,6 +4,9 @@
 
 A SharePoint Online administration tool built with SharePoint Framework (SPFx) that provides a user-friendly interface to manage site-selected permissions for applications using Microsoft Graph API. This web part allows administrators to grant, view, and revoke permissions for apps on specific SharePoint sites.
 
+<img width="1387" height="634" alt="image" src="https://github.com/user-attachments/assets/91545b3b-5625-4bd4-b0a3-c48e65475e9b" />
+
+
 ![SharePoint Framework](https://img.shields.io/badge/SharePoint%20Framework-1.22.1-green.svg)
 ![React](https://img.shields.io/badge/React-17.0.1-blue.svg)
 ![TypeScript](https://img.shields.io/badge/TypeScript-4.7.4-blue.svg)
