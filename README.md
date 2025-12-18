@@ -17,15 +17,15 @@ A SharePoint Online administration tool built with SharePoint Framework (SPFx) t
 - [SharePoint Framework](https://aka.ms/spfx)
 - [Microsoft 365 tenant](https://docs.microsoft.com/sharepoint/dev/spfx/set-up-your-developer-tenant)
 
-> Get your own free development tenant by subscribing to [Microsoft 365 developer program](http://aka.ms/o365devprogram)
 
 ## Prerequisites
 
 - Microsoft 365 developer tenant
-- Node.js (version 14 or later)
-- SharePoint Framework development environment set up
+- Node.js (version 22)
+- SharePoint Framework development environment set up v1.22
 - Azure AD app registration (for app mode authentication)
 - Appropriate permissions in Microsoft Graph (Sites.ReadWrite.All, etc.)
+-Tenant Admin Rights for adding App Permissions to a site.
 
 ## Solution
 
@@ -37,9 +37,8 @@ A SharePoint Online administration tool built with SharePoint Framework (SPFx) t
 
 | Version | Date             | Comments                          |
 | ------- | ---------------- | --------------------------------- |
-| 1.2     | December 18, 2025| Added tabs for add/list permissions, display name support |
-| 1.1     | March 10, 2021   | Update comment                    |
-| 1.0     | January 29, 2021 | Initial release                   |
+| 1.0     | December 18, 2025| Added tabs for add/list permissions, display name support |
+
 
 ## Disclaimer
 
@@ -52,7 +51,7 @@ A SharePoint Online administration tool built with SharePoint Framework (SPFx) t
 - Clone this repository
 - Navigate to the client/spfx-spo-admin folder
 - Run `npm install`
-- Run `gulp serve` to start the local development server
+- Run `npm run start` to start the local development server
 - Add the web part to a SharePoint page to test
 
 ## Features
@@ -68,10 +67,8 @@ This SharePoint Framework web part demonstrates the following concepts:
 
 ### Key Components
 
-- **ManageSiteSelected Web Part**: Main component with tabbed interface
-- **GraphAuthService**: Handles authentication and Graph client initialization
-- **SiteUrlHelper**: Utilities for SharePoint site URL validation and ID resolution
-- **PermissionTypes**: TypeScript interfaces and enums for permission management
+- **ManageSiteSelected Web Part**: Main component with tabbed interface for Adding  App permissions for a site  and listing all the permissions
+-
 
 ## References
 
